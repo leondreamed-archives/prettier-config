@@ -1,4 +1,5 @@
 module.exports = {
+	plugins: [require.resolve('@prettier/plugin-pug')],
 	useTabs: true,
 	singleQuote: true,
 	pugSingleFileComponentIndentation: false,
